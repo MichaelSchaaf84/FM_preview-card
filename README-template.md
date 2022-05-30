@@ -66,10 +66,10 @@ the solution is to give the image 1 opaccity and the overlay backround color you
 creating the hover effect in html and css:
 
 div container <br>
-div img div<br>
-div overlay<br>
-img<br>
-div<br>
+**div img div<br>
+**div overlay<br>
+\_**\_img<br>
+**div<br>
 div<br>
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.

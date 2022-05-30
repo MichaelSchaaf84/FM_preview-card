@@ -58,7 +58,45 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Creating the layout of the card was quickly finished.
+The bigist problem was the hover effect over the top picture.
+
+creating the hover effect in html and css:
+
+div container
+div img div
+div overlay
+img
+div
+div
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgb(0, 0, 0);
+background: $cyan;
+color: #f1f1f1;
+width: 100%;
+height: 100%;
+
+    transition: 0.5s ease;
+    opacity: 0;
+
+    text-align: center;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+}
 
 To see how you can add code snippets, see below:
 

@@ -51,7 +51,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - SASS /CSS
 - Flexbox
-- CSS Grid
+
 - Mobile-first workflow
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
@@ -65,12 +65,12 @@ the solution is to give the image 1 opaccity and the overlay backround color you
 
 creating the hover effect in html and css:
 
-- div container
-- div img div
-- div overlay
-- img
-- div
-- div
+div container <br>
+div img div<br>
+div overlay<br>
+img<br>
+div<br>
+div<br>
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
